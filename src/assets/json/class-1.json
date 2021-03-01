@@ -1,0 +1,512 @@
+[
+    {
+        "id": 1,
+        "name": "Riley",
+        "grade": 1.0
+    },
+    {
+        "id": 2,
+        "name": "Charlie",
+        "grade": 1.2
+    },
+    {
+        "id": 3,
+        "name": "Milo",
+        "grade": 1.2
+    },
+    {
+        "id": 4,
+        "name": "Oliver",
+        "grade": 1.2
+    },
+    {
+        "id": 5,
+        "name": "Sophia",
+        "grade": 1.2
+    },
+    {
+        "id": 6,
+        "name": "Emma",
+        "grade": 1.3
+    },
+    {
+        "id": 7,
+        "name": "Nenjamin",
+        "grade": 1.3
+    },
+    {
+        "id": 8,
+        "name": "Hunter",
+        "grade": 1.5
+    },
+    {
+        "id": 9,
+        "name": "Cooper",
+        "grade": 1.6
+    },
+    {
+        "id": 10,
+        "name": "Kiara",
+        "grade": 1.8
+    },
+    {
+        "id": 11,
+        "name": "Carli",
+        "grade": 1.4
+    },
+    {
+        "id": 12,
+        "name": "Camila",
+        "grade": 1.7
+    },
+    {
+        "id": 13,
+        "name": "Zoey",
+        "grade": 1.0
+    },
+    {
+        "id": 14,
+        "name": "Hazel",
+        "grade": 1.3
+    },
+    {
+        "id": 15,
+        "name": "Augustus",
+        "grade": 1.6
+    },
+    {
+        "id": 16,
+        "name": "Kevin",
+        "grade": 1.0
+    },
+    {
+        "id": 17,
+        "name": "Sasha",
+        "grade": 1.0
+    },
+    {
+        "id": 18,
+        "name": "Katie",
+        "grade": 1.2
+    },
+    {
+        "id": 19,
+        "name": "Madelyn",
+        "grade": 1.0
+    },
+    {
+        "id": 20,
+        "name": "Sadie",
+        "grade": 1.0
+    },
+    {
+        "id": 21,
+        "name": "Harper",
+        "grade": 1.2
+    },
+    {
+        "id": 22,
+        "name": "Victoria",
+        "grade": 1.0
+    },
+    {
+        "id": 23,
+        "name": "Madison",
+        "grade": 1.9
+    },
+    {
+        "id": 24,
+        "name": "Gracie",
+        "grade": 1.6
+    },
+    {
+        "id": 25,
+        "name": "Scarlett",
+        "grade": 1.1
+    },
+    {
+        "id": 26,
+        "name": "Layla",
+        "grade": 1.0
+    },
+    {
+        "id": 27,
+        "name": "Stella",
+        "grade": 1.0
+    },
+    {
+        "id": 28,
+        "name": "Violet",
+        "grade": 1.3
+    },
+    {
+        "id": 29,
+        "name": "Lydia",
+        "grade": 1.4
+    },
+    {
+        "id": 30,
+        "name": "Josephine",
+        "grade": 4.2
+    },
+    {
+        "id": 31,
+        "name": "Riley",
+        "grade": 4.0
+    },
+    {
+        "id": 32,
+        "name": "Charlie",
+        "grade": 4.2
+    },
+    {
+        "id": 33,
+        "name": "Milo",
+        "grade": 3.2
+    },
+    {
+        "id": 34,
+        "name": "Oliver",
+        "grade": 2.2
+    },
+    {
+        "id": 35,
+        "name": "Sophia",
+        "grade": 3.2
+    },
+    {
+        "id": 36,
+        "name": "Emma",
+        "grade": 4.3
+    },
+    {
+        "id": 37,
+        "name": "Nenjamin",
+        "grade": 4.3
+    },
+    {
+        "id": 38,
+        "name": "Hunter",
+        "grade": 4.5
+    },
+    {
+        "id": 39,
+        "name": "Cooper",
+        "grade": 4.6
+    },
+    {
+        "id": 40,
+        "name": "Kiara",
+        "grade": 4.8
+    },
+    {
+        "id": 41,
+        "name": "Carli",
+        "grade": 4.4
+    },
+    {
+        "id": 42,
+        "name": "Camila",
+        "grade": 4.7
+    },
+    {
+        "id": 43,
+        "name": "Zoey",
+        "grade": 5.0
+    },
+    {
+        "id": 44,
+        "name": "Hazel",
+        "grade": 3.3
+    },
+    {
+        "id": 45,
+        "name": "Augustus",
+        "grade": 3.6
+    },
+    {
+        "id": 46,
+        "name": "Kevin",
+        "grade": 5.0
+    },
+    {
+        "id": 47,
+        "name": "Sasha",
+        "grade": 5.0
+    },
+    {
+        "id": 48,
+        "name": "Katie",
+        "grade": 1.2
+    },
+    {
+        "id": 49,
+        "name": "Madelyn",
+        "grade": 5.0
+    },
+    {
+        "id": 50,
+        "name": "Sadie",
+        "grade": 5.0
+    },
+    {
+        "id": 51,
+        "name": "Harper",
+        "grade": 4.2
+    },
+    {
+        "id": 52,
+        "name": "Victoria",
+        "grade": 3.0
+    },
+    {
+        "id": 53,
+        "name": "Madison",
+        "grade": 2.9
+    },
+    {
+        "id": 54,
+        "name": "Gracie",
+        "grade": 2.6
+    },
+    {
+        "id": 55,
+        "name": "Scarlett",
+        "grade": 3.1
+    },
+    {
+        "id": 56,
+        "name": "Layla",
+        "grade": 5.0
+    },
+    {
+        "id": 57,
+        "name": "Stella",
+        "grade": 5.0
+    },
+    {
+        "id": 58,
+        "name": "Violet",
+        "grade": 4.3
+    },
+    {
+        "id": 59,
+        "name": "Lydia",
+        "grade": 4.4
+    },
+    {
+        "id": 60,
+        "name": "Josephine",
+        "grade": 4.2
+    },
+    {
+        "id": 61,
+        "name": "Riley",
+        "grade": 4.0
+    },
+    {
+        "id": 62,
+        "name": "Charlie",
+        "grade": 4.2
+    },
+    {
+        "id": 63,
+        "name": "Milo",
+        "grade": 3.2
+    },
+    {
+        "id": 64,
+        "name": "Oliver",
+        "grade": 2.2
+    },
+    {
+        "id": 65,
+        "name": "Sophia",
+        "grade": 3.2
+    },
+    {
+        "id": 66,
+        "name": "Emma",
+        "grade": 4.3
+    },
+    {
+        "id": 67,
+        "name": "Nenjamin",
+        "grade": 4.3
+    },
+    {
+        "id": 68,
+        "name": "Hunter",
+        "grade": 4.5
+    },
+    {
+        "id": 69,
+        "name": "Cooper",
+        "grade": 4.6
+    },
+    {
+        "id": 70,
+        "name": "Kiara",
+        "grade": 4.8
+    },
+    {
+        "id": 71,
+        "name": "Carli",
+        "grade": 4.4
+    },
+    {
+        "id": 72,
+        "name": "Camila",
+        "grade": 4.7
+    },
+    {
+        "id": 73,
+        "name": "Zoey",
+        "grade": 5.0
+    },
+    {
+        "id": 74,
+        "name": "Hazel",
+        "grade": 3.3
+    },
+    {
+        "id": 75,
+        "name": "Augustus",
+        "grade": 3.6
+    },
+    {
+        "id": 76,
+        "name": "Kevin",
+        "grade": 5.0
+    },
+    {
+        "id": 77,
+        "name": "Sasha",
+        "grade": 5.0
+    },
+    {
+        "id": 78,
+        "name": "Katie",
+        "grade": 1.2
+    },
+    {
+        "id": 79,
+        "name": "Madelyn",
+        "grade": 5.0
+    },
+    {
+        "id": 80,
+        "name": "Sadie",
+        "grade": 5.0
+    },
+    {
+        "id": 81,
+        "name": "Harper",
+        "grade": 4.2
+    },
+    {
+        "id": 82,
+        "name": "Victoria",
+        "grade": 3.0
+    },
+    {
+        "id": 83,
+        "name": "Madison",
+        "grade": 2.9
+    },
+    {
+        "id": 84,
+        "name": "Gracie",
+        "grade": 2.6
+    },
+    {
+        "id": 85,
+        "name": "Scarlett",
+        "grade": 3.1
+    },
+    {
+        "id": 86,
+        "name": "Layla",
+        "grade": 5.0
+    },
+    {
+        "id": 87,
+        "name": "Stella",
+        "grade": 5.0
+    },
+    {
+        "id": 88,
+        "name": "Violet",
+        "grade": 4.3
+    },
+    {
+        "id": 89,
+        "name": "Lydia",
+        "grade": 4.4
+    },
+    {
+        "id": 90,
+        "name": "Josephine",
+        "grade": 4.2
+    },
+    {
+        "id": 91,
+        "name": "Sadie",
+        "grade": 5.0
+    },
+    {
+        "id": 92,
+        "name": "Harper",
+        "grade": 4.2
+    },
+    {
+        "id": 93,
+        "name": "Victoria",
+        "grade": 3.0
+    },
+    {
+        "id": 94,
+        "name": "Madison",
+        "grade": 2.9
+    },
+    {
+        "id": 95,
+        "name": "Gracie",
+        "grade": 2.6
+    },
+    {
+        "id": 96,
+        "name": "Scarlett",
+        "grade": 3.1
+    },
+    {
+        "id": 97,
+        "name": "Layla",
+        "grade": 5.0
+    },
+    {
+        "id": 98,
+        "name": "Stella",
+        "grade": 5.0
+    },
+    {
+        "id": 99,
+        "name": "Violet",
+        "grade": 4.3
+    },
+    {
+        "id": 100,
+        "name": "Lydia",
+        "grade": 4.4
+    },
+    {
+        "id": 101,
+        "name": "Violet",
+        "grade": 4.3
+    },
+    {
+        "id": 102,
+        "name": "Lydia",
+        "grade": 4.4
+    }
+]

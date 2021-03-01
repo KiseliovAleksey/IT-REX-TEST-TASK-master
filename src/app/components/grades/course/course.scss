@@ -1,0 +1,23 @@
+@import "../../../../styles/global";
+
+#course {
+    margin-top: 0rem;
+
+    .label-default {
+        float: inline-end;
+    }
+
+    .row {
+        margin-bottom: 1rem;
+    }
+    .row .row {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+    [class*="col-"] {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: rgba(0, 0, 0, 0.15);
+        border: 1px solid rgba(18, 1, 43, 0.2);
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>IT REX</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+    </head>
+    <body ng-app="app" ng-controller="AppController as app" ng-strict-di>
+        <header class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="ACME co"> </a>
+            <button type="button" class="navbar-toggler" ng-click="app.isCollapsed = !app.isCollapsed" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" uib-collapse="app.isCollapsed">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" ui-sref="dashboard" ui-sref-active="active">Dashboard</a>
+                    <a class="nav-item nav-link" ui-sref="grades.course({id: 1})" ui-sref-active="active">Grades</a>
+                    <a class="nav-item nav-link" ui-sref="domino" ui-sref-active="active">Domino</a>
+                </div>
+            </div>
+        </header>
+        <main class="main" role="main">
+            <div ui-view></div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p class="float-right to-top"></p>
+            </div>
+        </footer>
+    </body>
+</html>

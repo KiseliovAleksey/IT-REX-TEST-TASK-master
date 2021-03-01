@@ -1,0 +1,137 @@
+@import "../../../styles/global";
+@import "../../../styles/input-slider";
+
+#grids {
+    margin-top: 2rem;
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row > [class*="col-"] {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-xs-1 {
+        display: flex !important;
+        flex-direction: row;
+    }
+    [class*="col-"] {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: rgba(161, 161, 161, 0.15);
+        border: 1px solid rgba(86, 61, 124, 0.2);
+    }
+    .visible {
+        visibility: visible;
+    }
+    .tile-space {
+        height: 25em;
+        background-color: $white;
+        border: 2px rgb(0, 0, 0) solid;
+    }
+
+    .tile {
+        background: #000000;
+        width: 5em;
+        height: 10em;
+        margin: 3px;
+        border: 1px #ccc solid;
+        display: inline-block;
+        border-radius: 12px;
+        box-shadow: 2px 2px 2px 2px #000000;
+        position: relative;
+    }
+    .tile .line {
+        width: 4.5em;
+        height: 0.1em;
+        position: absolute;
+        top: 4.9em;
+        left: 0.25em;
+        background-color: rgb(255, 255, 255);
+    }
+    .tile .segment {
+        display: grid;
+        height: 50%;
+        padding: 0.4em;
+        position: relative;
+    }
+    #choiceRow .tile {
+        height: 5em;
+    }
+    #choiceRow .tile .segment {
+        height: 100%;
+    }
+    .tile .segment .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.2em 0;
+    }
+    .tile .segment .row .dot {
+        width: 1em;
+        height: 1em;
+        background: rgb(255, 255, 255);
+        border-radius: 50%;
+        visibility: hidden;
+    }
+    .tile .segment.six .row:nth-child(1) .dot:nth-child(1),
+    .tile .segment.six .row:nth-child(2) .dot:nth-child(1),
+    .tile .segment.six .row:nth-child(3) .dot:nth-child(1),
+    .tile .segment.six .row:nth-child(1) .dot:nth-child(3),
+    .tile .segment.six .row:nth-child(2) .dot:nth-child(3),
+    .tile .segment.six .row:nth-child(3) .dot:nth-child(3) {
+        visibility: visible;
+    }
+    .tile .segment.five .row:nth-child(1) .dot:nth-child(1),
+    .tile .segment.five .row:nth-child(3) .dot:nth-child(1),
+    .tile .segment.five .row:nth-child(1) .dot:nth-child(3),
+    .tile .segment.five .row:nth-child(3) .dot:nth-child(3) {
+        visibility: visible;
+    }
+    .tile .segment.five .row:nth-child(2) .dot:nth-child(2) {
+        visibility: visible;
+    }
+    .tile .segment.four .row:nth-child(1) .dot:nth-child(1),
+    .tile .segment.four .row:nth-child(3) .dot:nth-child(1),
+    .tile .segment.four .row:nth-child(1) .dot:nth-child(3),
+    .tile .segment.four .row:nth-child(3) .dot:nth-child(3) {
+        visibility: visible;
+    }
+    .tile .segment.three .row:nth-child(1) .dot:nth-child(3) {
+        visibility: visible;
+    }
+    .half-tile,
+    .tile .segment.three .row:nth-child(2) .dot:nth-child(2) {
+        visibility: visible;
+    }
+    .tile .segment.three .row:nth-child(3) .dot:nth-child(1) {
+        visibility: visible;
+    }
+    .tile .segment.two .row:nth-child(1) .dot:nth-child(3) {
+        visibility: visible;
+    }
+    .tile .segment.two .row:nth-child(3) .dot:nth-child(1) {
+        visibility: visible;
+    }
+    .tile .segment.one .row:nth-child(2) .dot:nth-child(2) {
+        visibility: visible;
+    }
+    .selected {
+        filter: invert(50%);
+        outline: 2px rgb(255, 255, 255);
+        outline-style: dashed;
+        outline-offset: -7px;
+    }
+    #dominoTable {
+        display: block;
+        max-width: 44em;
+    }
+}

@@ -1,0 +1,24 @@
+<section id="grades" class="container">
+    <ul id="tabs" class="nav nav-tabs mt-5">
+        <li
+            class="-inavtem"
+            ng-repeat="item in grades.data"
+            ui-sref="grades.course({id: '{{item.id}}'})"
+            ng-click="grades.selectedItem(item, $event)"
+        >
+            <a class="nav-link" name="nav-link"
+                >Grade: {{item.name}} {{item.summaryGrade || ""}}
+                <div
+                    class="fa fa-times"
+                    aria-label="Close"
+                    ng-confirm-click="Are you sure to remove Tab?"
+                    ng-click="grades.removeClass($index, $event)"
+                ></div>
+            </a>
+        </li>
+        <li class="nav-item" ui-sref="grades.course({id :''})" ng-click="grades.addTab()">
+            <a class="nav-link plus fa fa-plus"></a>
+        </li>
+    </ul>
+    <div ui-view></div>
+</section>

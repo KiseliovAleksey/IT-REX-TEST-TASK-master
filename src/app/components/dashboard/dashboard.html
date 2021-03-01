@@ -1,0 +1,37 @@
+<section id="dashboard" class="container">
+    <h3>Test Task for AngularJS Developer</h3>
+    <h3 ng-click="dashboard.getListGrades()">Description</h3>
+    <p>
+        In order to understand your knowledge in the required area, we ask you to perform a test task. Please send your time estimation and
+        the deadline to the HR manager. For example: "The tasks will take 12 hours and I plan to send it till April 20 by the end of the
+        day." If you think that the test task will take too much of your time and you don’t want to spend it on it, please explain why you
+        believe this task is so time-consuming. Thank you in advance for your time and efforts!
+    </p>
+
+    <h5>Requirements to the code:</h5>
+    <p>General:</p>
+    <ul>
+        <li>Strictly AngularJS</li>
+        <li>UI router for making one application out of 2 and for routing inside dominos or grades (if needed)</li>
+        <li>stub data ($http + .json les), no hardcoded values for example for initial grades</li>
+        <li>CoffeeScript is a plus</li>
+    </ul>
+    <p>Domino</p>
+    <ul>
+        <li>dominos should be created using CSS, no images</li>
+        <li>
+            user should have the ability to select top part of the domino (1-6) and bottom part of the domino (1-6) when clicking new domino
+            button
+        </li>
+    </ul>
+    <p>School GPA calculator</p>
+    <ul>
+        <li>UI grid for grades app view (including infinite scroll is a plus)</li>
+    </ul>
+    <div>
+        <button type="button" class="btn btn-primary btn-lg" ui-sref="grades.course({id: 1})" ui-sref-active="active">
+            Scool GPA Grades
+        </button>
+        <button type="button" class="btn btn-primary btn-lg" ui-sref="domino" ui-sref-active="active">Domino</button>
+    </div>
+</section>

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "BARiley",
+        "grade": "4.0"
+    },
+    {
+        "id": 2,
+        "name": "BACharlie",
+        "grade": "4.2"
+    },
+    {
+        "id": 3,
+        "name": "BAMilo",
+        "grade": "3.2"
+    },
+    {
+        "id": 4,
+        "name": "BAOliver",
+        "grade": "2.2"
+    },
+    {
+        "id": 5,
+        "name": "BASophia",
+        "grade": "3.2"
+    },
+    {
+        "id": 6,
+        "name": "BAEmma",
+        "grade": "4.3"
+    },
+    {
+        "id": 7,
+        "name": "BANenjamin",
+        "grade": "4.3"
+    },
+    {
+        "id": 8,
+        "name": "BAHunter",
+        "grade": "4.5"
+    },
+    {
+        "id": 9,
+        "name": "BACooper",
+        "grade": "4.6"
+    },
+    {
+        "id": 10,
+        "name": "BAKiara",
+        "grade": "4.8"
+    },
+    {
+        "id": 11,
+        "name": "BACarli",
+        "grade": "4.4"
+    },
+    {
+        "id": 12,
+        "name": "BACamila",
+        "grade": "4.7"
+    },
+    {
+        "id": 13,
+        "name": "BAZoey",
+        "grade": "5.0"
+    },
+    {
+        "id": 14,
+        "name": "BAHazel",
+        "grade": "3.3"
+    },
+    {
+        "id": 15,
+        "name": "BAAugustus",
+        "grade": "3.6"
+    },
+    {
+        "id": 16,
+        "name": "BAKevin",
+        "grade": "5.0"
+    }
+]

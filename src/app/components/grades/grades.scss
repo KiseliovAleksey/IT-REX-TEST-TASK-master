@@ -1,0 +1,8 @@
+@import "../../../styles/global";
+
+#grades {
+    > ul > li {
+        max-width: 300px;
+        text-overflow: "...";
+    }
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "ARiley",
+        "grade": "4.0"
+    },
+    {
+        "id": 2,
+        "name": "ACharlie",
+        "grade": "4.2"
+    },
+    {
+        "id": 3,
+        "name": "AMilo",
+        "grade": "3.2"
+    },
+    {
+        "id": 4,
+        "name": "AOliver",
+        "grade": "2.2"
+    },
+    {
+        "id": 5,
+        "name": "ASophia",
+        "grade": "3.2"
+    },
+    {
+        "id": 6,
+        "name": "AEmma",
+        "grade": "4.3"
+    },
+    {
+        "id": 7,
+        "name": "ANenjamin",
+        "grade": "4.3"
+    },
+    {
+        "id": 8,
+        "name": "AHunter",
+        "grade": "4.5"
+    },
+    {
+        "id": 9,
+        "name": "ACooper",
+        "grade": "4.6"
+    },
+    {
+        "id": 10,
+        "name": "AKiara",
+        "grade": "4.8"
+    },
+    {
+        "id": 11,
+        "name": "ACarli",
+        "grade": "4.4"
+    },
+    {
+        "id": 12,
+        "name": "ACamila",
+        "grade": "4.7"
+    },
+    {
+        "id": 13,
+        "name": "AZoey",
+        "grade": "5.0"
+    },
+    {
+        "id": 14,
+        "name": "AHazel",
+        "grade": "3.3"
+    },
+    {
+        "id": 15,
+        "name": "AAugustus",
+        "grade": "3.6"
+    },
+    {
+        "id": 16,
+        "name": "AKevin",
+        "grade": "5.0"
+    },
+    {
+        "id": 17,
+        "name": "ASasha",
+        "grade": "5.0"
+    },
+    {
+        "id": 18,
+        "name": "AKatie",
+        "grade": "1.2"
+    },
+    {
+        "id": 19,
+        "name": "AMadelyn",
+        "grade": "5.0"
+    },
+    {
+        "id": 20,
+        "name": "ASadie",
+        "grade": "5.0"
+    },
+    {
+        "id": 21,
+        "name": "AHarper",
+        "grade": "4.2"
+    },
+    {
+        "id": 22,
+        "name": "AVictoria",
+        "grade": "3.0"
+    },
+    {
+        "id": 23,
+        "name": "AMadison",
+        "grade": "2.9"
+    },
+    {
+        "id": 24,
+        "name": "AGracie",
+        "grade": "2.6"
+    }
+]
